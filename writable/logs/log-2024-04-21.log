@@ -1,0 +1,56 @@
+ERROR - 2024-04-21 05:21:01 --> mysqli_sql_exception: Table 'menu.categories' doesn't exist in /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /var/www/menu/app/Database/Seeds/MenuDataSeeder.php(58): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /var/www/menu/vendor/codeigniter4/framework/system/Database/Seeder.php(145): App\Database\Seeds\MenuDataSeeder->run()
+#7 /var/www/menu/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#8 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#9 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /var/www/menu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-21 05:23:16 --> mysqli_sql_exception: Table 'menu.categories' doesn't exist in /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /var/www/menu/app/Database/Seeds/MenuDataSeeder.php(58): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /var/www/menu/vendor/codeigniter4/framework/system/Database/Seeder.php(145): App\Database\Seeds\MenuDataSeeder->run()
+#7 /var/www/menu/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#8 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#9 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /var/www/menu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-21 05:44:38 --> mysqli_sql_exception: Table 'menu.categories' doesn't exist in /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /var/www/menu/app/Database/Seeds/MenuDataSeeder.php(58): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /var/www/menu/vendor/codeigniter4/framework/system/Database/Seeder.php(145): App\Database\Seeds\MenuDataSeeder->run()
+#7 /var/www/menu/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#8 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#9 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /var/www/menu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-21 05:46:51 --> mysqli_sql_exception: Table 'menu.products' doesn't exist in /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /var/www/menu/app/Database/Seeds/MenuDataSeeder.php(84): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /var/www/menu/vendor/codeigniter4/framework/system/Database/Seeder.php(145): App\Database\Seeds\MenuDataSeeder->run()
+#7 /var/www/menu/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call()
+#8 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run()
+#9 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /var/www/menu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

@@ -1,0 +1,372 @@
+CRITICAL - 2024-04-24 07:42:04 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(55): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 07:42:14 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(55): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 07:46:15 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(55): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 07:54:46 --> ErrorException: Undefined variable $categoryModel
+in APPPATH/Controllers/Category.php on line 55.
+ 1 APPPATH/Controllers/Category.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 07:56:31 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(55): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 07:56:32 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(55): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 07:56:33 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(55): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 07:58:15 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(57): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:00:18 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(57): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:04:16 --> Error: Class "App\Controllers\Controller" not found
+in APPPATH/Controllers/Category.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:05:37 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(57): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:08:16 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 788.
+ 1 SYSTEMPATH/BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Category.php(58): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Category->add()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:23:55 --> ErrorException: Undefined variable $user
+in APPPATH/Views/category.php on line 160.
+ 1 APPPATH/Views/category.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(187): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:30:09 --> ArgumentCountError: Too few arguments to function App\Controllers\menuController::category(), 0 passed in /var/www/menu/vendor/codeigniter4/framework/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/menuController.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:30:10 --> ArgumentCountError: Too few arguments to function App\Controllers\menuController::category(), 0 passed in /var/www/menu/vendor/codeigniter4/framework/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/menuController.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:32:09 --> ArgumentCountError: Too few arguments to function App\Controllers\menuController::category(), 0 passed in /var/www/menu/vendor/codeigniter4/framework/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/menuController.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:32:10 --> ArgumentCountError: Too few arguments to function App\Controllers\menuController::category(), 0 passed in /var/www/menu/vendor/codeigniter4/framework/system/CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH/Controllers/menuController.php on line 179.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:32:42 --> ErrorException: Undefined variable $user
+in APPPATH/Views/category.php on line 160.
+ 1 APPPATH/Views/category.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(188): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:34:12 --> ErrorException: Undefined variable $user
+in APPPATH/Views/category.php on line 160.
+ 1 APPPATH/Views/category.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(188): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 08:35:49 --> ErrorException: Undefined variable $user
+in APPPATH/Views/category.php on line 160.
+ 1 APPPATH/Views/category.php(160): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(190): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 10:19:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "addedit.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/menuController.php(233): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->addedit()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:07:08 --> ErrorException: Undefined array key "user_id"
+in APPPATH/Views/category.php on line 175.
+ 1 APPPATH/Views/category.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(191): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:22:53 --> ErrorException: Undefined variable $UserModel
+in APPPATH/Controllers/menuController.php on line 190.
+ 1 APPPATH/Controllers/menuController.php(190): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:24:15 --> ErrorException: Undefined variable $CategoryModel
+in APPPATH/Controllers/menuController.php on line 197.
+ 1 APPPATH/Controllers/menuController.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:24:15 --> ErrorException: Undefined variable $CategoryModel
+in APPPATH/Controllers/menuController.php on line 197.
+ 1 APPPATH/Controllers/menuController.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:24:40 --> ErrorException: Undefined variable $user_id
+in APPPATH/Controllers/menuController.php on line 197.
+ 1 APPPATH/Controllers/menuController.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:25:14 --> ErrorException: Undefined variable $category_id
+in APPPATH/Controllers/menuController.php on line 198.
+ 1 APPPATH/Controllers/menuController.php(198): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:25:15 --> ErrorException: Undefined variable $category_id
+in APPPATH/Controllers/menuController.php on line 198.
+ 1 APPPATH/Controllers/menuController.php(198): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-24 11:25:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ LIMIT 1' at line 3 in /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/menu/vendor/codeigniter4/framework/system/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/menu/vendor/codeigniter4/framework/system/BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 /var/www/menu/app/Controllers/menuController.php(198): CodeIgniter\BaseModel->first()
+#7 /var/www/menu/vendor/codeigniter4/framework/system/CodeIgniter.php(941): App\Controllers\menuController->category()
+#8 /var/www/menu/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/menu/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/menu/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-24 11:25:50 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/menuController.php(198): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:25:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Controllers/menuController.php(198): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:25:50 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/menuController.php(198): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:26:52 --> ErrorException: Undefined array key "user_id"
+in APPPATH/Views/category.php on line 175.
+ 1 APPPATH/Views/category.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(191): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:27:54 --> ErrorException: Undefined array key "user_id"
+in APPPATH/Views/category.php on line 175.
+ 1 APPPATH/Views/category.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(191): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:27:55 --> ErrorException: Undefined array key "user_id"
+in APPPATH/Views/category.php on line 175.
+ 1 APPPATH/Views/category.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(191): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:29:10 --> ErrorException: Undefined array key "user_id"
+in APPPATH/Views/category.php on line 175.
+ 1 APPPATH/Views/category.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(191): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:29:10 --> ErrorException: Undefined array key "user_id"
+in APPPATH/Views/category.php on line 175.
+ 1 APPPATH/Views/category.php(175): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/category.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(191): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->category()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:33:16 --> ParseError: Unclosed '[' on line 198 does not match '}'
+in APPPATH/Controllers/menuController.php on line 199.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:33:25 --> ParseError: Unclosed '[' on line 198 does not match '}'
+in APPPATH/Controllers/menuController.php on line 199.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-24 11:33:29 --> ParseError: Unclosed '[' on line 198 does not match '}'
+in APPPATH/Controllers/menuController.php on line 199.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

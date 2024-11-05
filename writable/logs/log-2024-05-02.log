@@ -1,0 +1,11 @@
+CRITICAL - 2024-05-02 05:30:43 --> ErrorException: Undefined variable $categories
+in APPPATH/Views/customerview.php on line 75.
+ 1 APPPATH/Views/customerview.php(75): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/customerview.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(376): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->customerview()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

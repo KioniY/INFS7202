@@ -1,0 +1,28 @@
+ERROR - 2024-04-11 06:06:41 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/menu/vendor/codeigniter4/framework/system/Database/Forge.php(555): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/menu/app/Database/Migrations/2024-04-11-055642_CreateUsersTable.php(48): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/menu/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(865): App\Database\Migrations\CreateUsersTable->up()
+#6 /var/www/menu/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/menu/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /var/www/menu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-04-11 06:08:30 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/menu/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/menu/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/menu/vendor/codeigniter4/framework/system/Database/Forge.php(555): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/menu/app/Database/Migrations/2024-04-11-055642_CreateUsersTable.php(48): CodeIgniter\Database\Forge->createTable()
+#5 /var/www/menu/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(865): App\Database\Migrations\CreateUsersTable->up()
+#6 /var/www/menu/vendor/codeigniter4/framework/system/Database/MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /var/www/menu/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /var/www/menu/vendor/codeigniter4/framework/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /var/www/menu/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

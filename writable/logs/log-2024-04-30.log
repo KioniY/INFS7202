@@ -1,0 +1,52 @@
+CRITICAL - 2024-04-30 03:05:02 --> ErrorException: Undefined variable $tables
+in APPPATH/Views/profile.php on line 125.
+ 1 APPPATH/Views/profile.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/profile.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(351): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->generateQRCode()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-30 03:08:45 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 970.
+ 1 SYSTEMPATH/BaseModel.php(970): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(807): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/menuController.php(351): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->generateQRCode()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-30 04:21:01 --> ErrorException: Trying to access array offset on null
+in APPPATH/Controllers/menuController.php on line 288.
+ 1 APPPATH/Controllers/menuController.php(288): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/menuController.php(213): App\Controllers\menuController->updateTableNumbers()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->editProfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-30 04:31:30 --> ErrorException: Trying to access array offset on null
+in APPPATH/Controllers/menuController.php on line 285.
+ 1 APPPATH/Controllers/menuController.php(285): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/menuController.php(213): App\Controllers\menuController->updateTableNumbers()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->editProfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-30 04:33:53 --> ErrorException: Trying to access array offset on null
+in APPPATH/Controllers/menuController.php on line 285.
+ 1 APPPATH/Controllers/menuController.php(285): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/menuController.php(213): App\Controllers\menuController->updateTableNumbers()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->editProfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-30 04:35:46 --> ErrorException: Trying to access array offset on null
+in APPPATH/Controllers/menuController.php on line 285.
+ 1 APPPATH/Controllers/menuController.php(285): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/menuController.php(213): App\Controllers\menuController->updateTableNumbers()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->editProfile()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

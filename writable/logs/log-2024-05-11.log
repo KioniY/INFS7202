@@ -1,0 +1,33 @@
+CRITICAL - 2024-05-11 09:14:24 --> ErrorException: Undefined variable $canceledOrders
+in APPPATH/Views/orders.php on line 146.
+ 1 APPPATH/Views/orders.php(146): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/orders.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(354): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->orders()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 09:36:02 --> ErrorException: Undefined variable $category_id
+in APPPATH/Views/products.php on line 216.
+ 1 APPPATH/Views/products.php(216): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/products.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(384): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->products()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 09:39:11 --> ErrorException: Trying to access array offset on null
+in APPPATH/Views/products.php on line 239.
+ 1 APPPATH/Views/products.php(239): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/menu/app/Views/products.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/menuController.php(384): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\menuController->products()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
